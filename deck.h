@@ -1,4 +1,4 @@
-#define BASE_SIZE 30
+#define BASE_SIZE 25
 
 typedef struct Card
 {
@@ -9,5 +9,6 @@ typedef struct Card
 typedef struct Deck
 {
 	Card cards[BASE_SIZE];
+	int cur_size;
 } Deck;
 
